@@ -141,15 +141,15 @@ public class PrimitiveTest {
 		// }
 		// }
 
-		String[] strings = { "abc", "y", "op", "bcd", "z", "a" };
-		System.out.println(Arrays.toString(strings));
-		Arrays.sort(strings);
-		System.out.println(Arrays.toString(strings));
-
-		Arrays.sort(strings, PrimitiveTest::reverse);
-		System.out.println(Arrays.toString(strings));
-	}
-
+//		String[] strings = { "abc", "y", "op", "bcd", "z", "a" };
+//		System.out.println(Arrays.toString(strings));
+//		Arrays.sort(strings);
+//		System.out.println(Arrays.toString(strings));
+//
+//		Arrays.sort(strings, PrimitiveTest::reverse);
+//		System.out.println(Arrays.toString(strings));
+//	}
+//
 	public static int reverse(String str1, String str2) {
 		if (str1.length() > str2.length()) {
 			return 1;
